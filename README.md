@@ -3,14 +3,15 @@ code source du projet p14
 
 
 Usage
+
 Voici le fonctionnement final de notre projet, en partant du principe que le matériel utilisé est similaire au notre (manette et shield raspberry notamment) :
 
 Réglages et pré-requis
 
-*Il est tout d'abord nécessaire de télécharger les prérequis sur le raspberry (et sur le PC en cas de non-utilisation de Google Colab)
-*Connecter les moteurs au shield et effectuer les réglages nécessaires. Il est notamment indispensable de déterminer la plage d'angle d'utilisation des (servo)moteurs : angle min et angle max. Ceci peut être fait à l'aide de <code>servotest.py</code>. 
-*Il faut désormais régler la camera, c'est à dire son inclinaison, sa hauteur (de manière à voir correctement le circuit) et enfin déterminer si elle est droite ou à l'envers.
-*Adapter le fichier constantes.py en fonctions des résultats précédents.
+- Il est tout d'abord nécessaire de télécharger les prérequis sur le raspberry (et sur le PC en cas de non-utilisation de Google Colab)
+- Connecter les moteurs au shield et effectuer les réglages nécessaires. Il est notamment indispensable de déterminer la plage d'angle d'utilisation des (servo)moteurs : angle min et angle max. Ceci peut être fait à l'aide de <code>servotest.py</code>. 
+- Il faut désormais régler la camera, c'est à dire son inclinaison, sa hauteur (de manière à voir correctement le circuit) et enfin déterminer si elle est droite ou à l'envers.
+- Adapter le fichier constantes.py en fonctions des résultats précédents.
 
 Utilisation (mode 3 directions)
 
